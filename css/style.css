@@ -1,0 +1,230 @@
+html{
+    background-color: #f6f6f6;
+  }
+  body{
+    font-family: Source Code Pro, monospace;
+}
+  .creditcard1{
+    background-image: linear-gradient( to bottom,   #278993 0%, #0b2f73 35%, #020d3d 100%);
+    width: 370px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 21px;
+     color: #f6f6f6;
+    margin-left: 420px;
+    margin-top: 70px;
+    margin-bottom: -110px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backfacevisibility: hidden;
+  }
+  .line1{
+    gap: 80px;
+    display: grid;
+    grid-template-columns: 1fr ,1fr;
+    }
+  #visa{
+   float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  #logo{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .card-number{
+    color: #f6f6f6;
+    font-size: 22px;
+   margin-top: 40px;
+    margin-left: 25px;
+  }
+  #num4{
+    float: right;
+    margin-right: 25px;
+    }
+  #num3{
+    margin-left: 22px;
+  }
+  #num2{
+    margin-left: 28px;
+  }
+  .exipiry-side{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .card-info{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    
+   
+   
+  }
+  .owner-name{
+   opacity: 0.6;
+  }
+  .holdersname{
+   
+  }
+  .expiry-date{
+    margin-left: 80px;
+  }
+  .expires{
+    opacity: 0.6;
+  }
+  
+  .input-field{
+    border: 1px solid transparent;
+    width: 650px;
+    height: 560px;
+    box-shadow: 0px 10px 15px #d1d1d1;
+    font-size: 14px;
+   margin-left: 270px;
+  border-radius: 25px;
+   
+ 
+    
+   }
+  .cardnumberlabel{
+    margin-top: 170px;
+    margin-left: 50px;
+    line-height: 30px;
+  }
+  .cardnumber-input{
+    width: 525px;
+    height: 20px;
+    border-radius: 10px;
+   font-size: 14px;
+    padding: 10px;
+    
+    border: 1px solid grey;
+  }
+  .cardholder-input{
+     width: 525px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+   
+    border: 1px solid grey;
+  
+  }
+  .card-holder{
+    margin-left: 50px;
+     margin-top: 40px;
+    line-height: 30px;
+  }
+  .expiration-line{
+     margin-left: 50px;
+     margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    grid-gap: 187px;
+  }
+  
+  
+  
+  .month-inputt{
+    width: 150px;
+  height: 70px;
+   border: 1px solid grey;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+    
+   .year-input{
+    border: 1px solid grey;
+    width: 150px;
+  height: 42px;
+    margin-left: 40px;
+    font-size: 20px;
+     border-radius: 10px;
+     padding: 10px;
+    }
+  
+  .cvv-inputtt{
+    width: 130px;
+   height: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid grey;
+    margin-left: 45px;
+    padding: 10px;
+    }
+  .expiry-input{
+    margin-left: 50px;
+   }
+    button{
+    width: 550px;
+    height: 40px;
+     border-radius: 7px;
+    font-size: 20px;
+    color: #f6f6f6;
+   
+    margin-left: 50px;
+     margin-top: 25px;
+    cursor: pointer;
+    transition: .2s linear;
+    }
+  .submit button{
+   background: linear-gradient( 45deg, #0b2f73 0%, #020d3d 100%);
+  }
+  .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: 0,8;
+  }
+  
+  .backcontainer{
+    background-image: linear-gradient( to bottom,   #278993 0%, #0b2f73 35%, #020d3d 100%);
+    width: 370px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 21px;
+     color: #f6f6f6;
+    margin-left: 420px;
+    margin-top: -123px;
+    margin-bottom: -160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    backfacevisibility: hidden;
+    position: absolute;
+    display: none;
+    }
+  .black-line{
+     width: 370px;
+    height: 50px;
+    background-color: black;
+    margin-top: 40px;
+  }
+  
+  
+  .white-line{
+    background-color: #fff;
+    width: 320px;
+    height: 40px;
+    margin-left: 25px;
+   
+    margin-top: 10px;
+  }
+   .back-cvv{
+     width: 60px;
+     height: 30px;
+      margin-left: 280px;
+     position: absolute;
+     margin-top: 10px;
+     color: black;
+   }
+  .back-cvv h4{
+      margin-top: 2px;
+   color: black;
+      
+  }
+  
+   #visa-back{
+     float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+   }
